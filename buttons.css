@@ -1,0 +1,28 @@
+.btn {
+    background-color: #1fb723;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #1fb723;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4)
+}
+.form label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    display: block;
+    transition: all 0.3s;
+    color: #1fb723;
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;   
+}
